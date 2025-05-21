@@ -1,3 +1,4 @@
+/* Estilos generales del cuerpo del documento */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -6,15 +7,18 @@ body {
     color: #333;
 }
 
+/* Estilo para el título principal */
 h1 {
     text-align: center;
     color: #2c3e50;
 }
 
+/* Estilo para subtítulos */
 h2 {
     color: #34495e;
 }
 
+/* Estilos para las secciones de resultados */
 #resultadoEdad, 
 #resultadoTabla, 
 #resultadoTablas {
@@ -27,10 +31,12 @@ h2 {
     max-width: 600px;
 }
 
+/* Estilo para texto resaltado */
 strong {
     color: #2980b9;
 }
 
+/* Estilo para todos los divs */
 div {
     line-height: 1.6;
 }

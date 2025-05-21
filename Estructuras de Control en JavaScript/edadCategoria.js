@@ -1,7 +1,9 @@
+// Función para solicitar edad y clasificar en una categoría
 function actividadEdad() {
     let edad = parseInt(prompt("Actividad 1 - Ingresa tu edad:"));
     let resultado = "";
 
+    // Validación y clasificación según edad ingresada
     if (isNaN(edad)) {
         resultado = "Por favor, ingresa un número válido.";
     } else if (edad < 0) {
@@ -20,6 +22,7 @@ function actividadEdad() {
     console.log("%cActividad 1: Clasificación de Edad", "color: blue; font-weight: bold;");
     console.log(mensaje);
 
+    // Mostrar resultado en el HTML
     document.getElementById("resultadoEdad").innerHTML =
         `<h2>Actividad 1: Clasificación de Edad</h2>
          <p><strong>Edad ingresada:</strong> ${edad}</p>

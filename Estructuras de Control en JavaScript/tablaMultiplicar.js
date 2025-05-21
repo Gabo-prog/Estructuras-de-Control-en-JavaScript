@@ -1,3 +1,4 @@
+// Función para mostrar la tabla de multiplicar de un número ingresado
 function actividadTabla() {
     let numero = parseInt(prompt("Actividad 2 - Ingresa un número para su tabla de multiplicar:"));
     let contenido = "<h2>Actividad 2: Tabla de Multiplicar</h2>";
@@ -15,6 +16,7 @@ function actividadTabla() {
         }
     }
 
+    // Mostrar resultado en el HTML
     document.getElementById("resultadoTabla").innerHTML = contenido;
 
     // Ejecuta la siguiente actividad

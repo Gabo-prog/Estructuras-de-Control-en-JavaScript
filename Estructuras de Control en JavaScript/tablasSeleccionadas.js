@@ -1,3 +1,4 @@
+// Función para mostrar tablas de multiplicar de números pares o impares
 function actividadTablas() {
     let tipo = prompt("Actividad 3 - ¿Deseas ver tablas de números 'pares' o 'impares'?").toLowerCase();
     let contenido = "<h2>Actividad 3: Tablas Pares o Impares</h2>";
@@ -23,5 +24,6 @@ function actividadTablas() {
         console.log("Opción no válida ingresada.");
     }
 
+    // Mostrar resultado en el HTML
     document.getElementById("resultadoTablas").innerHTML = contenido;
 }
